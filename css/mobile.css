@@ -1,0 +1,136 @@
+h1 {
+    font-size: 4rem !important;
+}
+
+h2 {
+    font-size: 3rem !important;
+}
+
+h3, h4 {
+    font-size: 2rem !important;
+}
+
+ol {
+    font-size: 3.5rem !important;
+}
+
+ol a {
+    font-size: 1.6rem !important;
+}
+
+body {
+    font-size: 1.5rem !important;
+}
+
+/* main-nav */
+/* #main-nav .nav-left,
+#main-nav .nav-mid,
+#main-nav .nav-right {
+    justify-self: center;
+} */
+
+#main-nav .nav-below ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#main-nav .nav-below ul li {
+    /* padding-bottom: .5rem; */
+    padding-top: .5rem;
+}
+
+/* main-articles */
+#main-articles .articles-container .head-content {
+    grid-template-columns: 1fr;
+}
+
+#main-articles .articles-container .head-content-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* main-content */
+#main-content {
+    grid-template-columns: 2fr 2fr;
+    gap: 1.3rem;
+}
+
+#main-content .main-content-left,
+#main-content .main-content-left1,
+#main-content .main-content-double {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#main-content .main-content-left img {
+    grid-row: 1;
+}
+
+#main-content .main-content-double .double-2,
+#main-content .main-content-right1,
+#main-content .main-content-right2 {
+    padding-top: 2rem;
+}
+
+#main-content .main-content-double .double-1,
+#main-content .main-content-right,
+#main-content .main-content-right1,
+#main-content .main-content-right2 .right-2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) ;
+}
+
+#main-content .main-content-left,
+#main-content .main-content-left1,
+#main-content .main-content-double .double-1,
+#main-content .main-content-double .double-2,
+#main-content .main-content-right,
+#main-content .main-content-right1,
+#main-content .main-content-right2 .right-2,
+#main-content .main-content-right2 .hide {
+    padding-bottom: 1.5rem;
+}
+
+#main-content .main-content-right2 .hide {
+    display: block;
+    padding-top: 3rem;
+}
+
+/* most-read */
+/* #most-read h2 {
+    font-size: 2.5rem;
+} */
+
+#most-read ol {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#most-read ol li {
+    padding: .2rem .5rem .2rem 2.5rem !important;
+}
+
+#most-read li:last-child a {
+    padding-left: 0;
+}
+
+/* main-footer */
+#main-footer .footer-container {
+    grid-template-columns: 1fr;
+    justify-self: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
